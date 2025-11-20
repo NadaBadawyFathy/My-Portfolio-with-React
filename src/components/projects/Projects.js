@@ -17,6 +17,7 @@ import edu from "../../Assets/projects images/edu plat.png";
 import edusity from "../../Assets/projects images/edusity.png";
 import evolution from "../../Assets/projects images/evolution.png";
 import grad from "../../Assets/projects images/grad.png";
+import my_portfolio from "../../Assets/projects images/my-portfolio.png";
 import imageSearch from "../../Assets/projects images/image-search-engine.png";
 import recipe from "../../Assets/projects images/recipe.jpg";
 import trendWear from "../../Assets/projects images/tred wear admin.png";
@@ -69,6 +70,16 @@ export const myProject = [
     stack: "react",
     tech: [react, ReactRouter, JavaScript, TailwindCSS, Rapid, MaterialUi],
   },
+    {
+    title: "My Portfolio (Personal Project)",
+    description:
+      "A personal portfolio website built with React to showcase my projects, skills, and experience. The portfolio includes interactive components, project galleries, and a modern responsive design for both desktop and mobile.",
+    image: my_portfolio, 
+    demo: "https://nada-badawy-portfolio.netlify.app/",
+    repo: "https://github.com/NadaBadawyFathy/My-Portfolio-with-React",
+    stack: "react",
+    tech: [react, ReactRouter, MaterialUi],
+  },
   {
     title: "Trendy Wear Admin Dashboard",
     description:
@@ -106,7 +117,7 @@ export const myProject = [
     image: imageSearch, 
     demo: "https://image-search-engine-12b.netlify.app/",
     repo: "https://github.com/NadaBadawyFathy/Image-Search-Engine",
-    stack: "reactandapi",
+    stack: "react",
     tech: [react, JavaScript, css, Rapid],
   },
   {

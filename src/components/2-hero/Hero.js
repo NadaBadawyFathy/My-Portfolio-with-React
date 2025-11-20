@@ -8,7 +8,7 @@ import {
   Button,
   useMediaQuery,
 } from "@mui/material";
-import CV from "../../Assets/Nada_Badawy_FrontEnd_Developer-1.pdf";
+import CV from "../../Assets/Nada_Badawy_FrontEnd_Developer.pdf";
 import Grid from "@mui/material/Grid";
 import VerifiedIcon from "@mui/icons-material/Verified";
 import SocialLinksCom from "../SocialLinks";
